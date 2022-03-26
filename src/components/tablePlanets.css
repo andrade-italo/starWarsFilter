@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://coldfeet-space.nyc3.cdn.digitaloceanspaces.com/wsb/2018/06/SW-square.jpg);
+    position:relative; top: 0px; left: 0px;
+    background-size: 1400px 1200px;
+    font-size: small;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq2AAM3KKiJVlu8f_1C4M2a-cCbGCSNZHUGVqaHPlp3AHDCQTv5sBi4RyohJ7kf2EuRhg&usqp=CAU);
+    position:relative; top: 0px; left: 0px;
+    background-size: 1200px 300px;
+    width:auto;
+    color: aquamarine;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.filterText {
+    margin: 20px;
+}
+
+.filtered {
+    display: table;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px dashed grey;
+    border-radius: 15px;
+    font-weight: bold;
+    color:black;
+}
+
+table{ /** Faz o estilo da tabela inteira. **/
+    display: table;
+    transition: all 0.3s ease-out;
+    box-shadow:
+    0 0 6px 3px #fff,
+    0 0 10px 6px #f0f,
+    0 0 14px 9px #0ff;
+    background-color: rgba(255, 255, 255, 0.8);
+ }
+ tr{/** Faz o estilo para as linhas. **/
+    text-align: center; /** Centraliza o conteúdo. **/
+}
+th{/** Faz o estilo para as células do cabeçalho. **/
+    background: black; /** Muda para um fundo cinza. **/
+    color: gold; /** Troca a cor da fonte para branco. **/
+
+ }
+ td .esquerda{ /** É feito o estilo das celulas com o auxilio de uma classe. **/
+    text-align: left; /**Alinha o texto da primeira coluna para esquerda. **/
+ }
+ td .centro{
+    text-align: center; /**Centraliza o texto. **/
+ }
+ td .direita{
+    text-align: right; /**Coloca o texto para esquerda. **/
+ }
+
+ td {
+     border: 1px solid black;
+     margin: 0px;
+     padding: 0;
+ }

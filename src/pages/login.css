@@ -1,0 +1,40 @@
+#input-player-name {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#imgTrivia {
+    margin: auto;
+}
+
+#btn-play {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: large;
+}
+
+#btnSettings{
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: large;
+  padding: 3px;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    border: 3px solid rgb(29, 185, 83, 1);
+    box-shadow:
+    0 0 6px 3px #fff,
+    0 0 10px 6px #f0f,
+    0 0 14px 9px #0ff;
+}
